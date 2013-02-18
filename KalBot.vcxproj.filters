@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Pliki źródłowe">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Pliki zasobów">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\Hooked">
+      <UniqueIdentifier>{3652fcc3-921e-4c38-a005-e42ab59ebd83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\GUI">
+      <UniqueIdentifier>{d143b427-c338-4786-83a2-6c1619115b1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\PE Interact">
+      <UniqueIdentifier>{210b96c2-6a36-4b79-9979-89a45a32259a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\Tools">
+      <UniqueIdentifier>{c4ec7930-d7e4-4f98-9e9a-7b0a8352caaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\Hooked">
+      <UniqueIdentifier>{bbb81929-72c0-4124-bea2-2001ab6cc275}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\GUI">
+      <UniqueIdentifier>{9632bdad-1325-49f2-b9bf-ec5e0f9e2138}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\Tools">
+      <UniqueIdentifier>{fac9a8e4-4a75-464f-8b18-60739064c910}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\PE Interact">
+      <UniqueIdentifier>{2243e180-7ad1-443f-a715-d28c4290b190}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\Decryption">
+      <UniqueIdentifier>{f70947ca-7aa8-4cf8-a7c3-3986babfd5ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\Decryption">
+      <UniqueIdentifier>{862d35d7-14d1-40dc-89bd-91610cebe3c8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="PE Interact\DLLDumper.h">
+      <Filter>Pliki nagłówkowe\PE Interact</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\KalTools.h">
+      <Filter>Pliki nagłówkowe\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\MainWindow.h">
+      <Filter>Pliki nagłówkowe\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\Memory.h">
+      <Filter>Pliki nagłówkowe\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooked\Recv.h">
+      <Filter>Pliki nagłówkowe\Hooked</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooked\Send.h">
+      <Filter>Pliki nagłówkowe\Hooked</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypt.h">
+      <Filter>Pliki nagłówkowe\Decryption</Filter>
+    </ClInclude>
+    <ClInclude Include="Decryption\Vari.h">
+      <Filter>Pliki nagłówkowe\Decryption</Filter>
+    </ClInclude>
+    <ClInclude Include="GameStruct.h">
+      <Filter>Pliki nagłówkowe\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Bot.h">
+      <Filter>Pliki nagłówkowe\Tools</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="KalBot.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="PE Interact\DLLDumper.cpp">
+      <Filter>Pliki źródłowe\PE Interact</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools\KalTools.cpp">
+      <Filter>Pliki źródłowe\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\MainWindow.cpp">
+      <Filter>Pliki źródłowe\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools\Memory.cpp">
+      <Filter>Pliki źródłowe\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooked\Recv.cpp">
+      <Filter>Pliki źródłowe\Hooked</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooked\Send.cpp">
+      <Filter>Pliki źródłowe\Hooked</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="Decryption\Crypt.cpp">
+      <Filter>Pliki źródłowe\Decryption</Filter>
+    </ClCompile>
+    <ClCompile Include="Bot.cpp">
+      <Filter>Pliki źródłowe\Tools</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
